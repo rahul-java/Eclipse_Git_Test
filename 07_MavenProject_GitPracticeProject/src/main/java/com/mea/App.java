@@ -14,6 +14,14 @@ public class App
 		return x*y;
 	}
 	
+	public int div(int x,int y) {
+		int div=0;
+		if(y>0) {
+			div=x/y;
+		}
+		return div;
+	}
+	
     public static void main( String[] args )
     {
 
@@ -22,5 +30,6 @@ public class App
         System.out.println("Sum is ::: "+app.add(10, 20));
         System.out.println("Subtraction is :: "+app.sub(20, 20));
         System.out.println("Multiplication is :"+app.mul(10, 20));
+        System.out.println("Division is :"+app.div(10, 20));
     }
 }
