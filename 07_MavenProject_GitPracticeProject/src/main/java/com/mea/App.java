@@ -32,5 +32,8 @@ public class App
         System.out.println("Multiplication is :"+app.mul(10, 20));
         //new line added
         System.out.println("Division is :"+app.div(10, 20));
+        
+        //Conflict Test
+        System.out.println("Sum is ::: "+app.add(100, 200));
     }
 }
